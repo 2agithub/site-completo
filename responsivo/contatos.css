@@ -34,6 +34,10 @@
             color: #F3B123;
             
         }
+        header{
+          height: 11vh;
+          
+        }
         .header{
             background: linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0));
             backdrop-filter: blur(10px);
@@ -42,7 +46,7 @@
             width: 100%; /* se refere a left e right*/
             position: fixed;
             z-index: 1111;
-          
+           
         }
         
         
@@ -50,7 +54,7 @@
             max-width: 1280px;
             height: 70px;
             margin-inline: auto;
-          
+            
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -227,12 +231,12 @@
 footer{
    
     
-   
-    height: 2vh;
+ 
+    height: 1vh;
     justify-content: center;
 }
 .footer{
-    height: 2vh;
+    height: 1vh;
     margin-left: 5%;
    
 
@@ -298,7 +302,8 @@ margin-top: -15%;
     background-color: #E8E7E7;
     font-size: 12px;
     text-align: center;
-    padding-block: 2%;
+    padding-block: 6%;
+    
 }
 
 
