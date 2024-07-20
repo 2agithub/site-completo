@@ -199,7 +199,7 @@
             }
             .banner{
                 width: 100%;
-                height:55vh;
+                height:57.5vh;
                 font-size: 12px;
                
             }
@@ -207,7 +207,7 @@
             .banner-contatos{
                width: 100%;
                 height: 22vh;
-                
+               margin-top: -1%;
             }
             .banner-cont{
                 height: 20vh;
