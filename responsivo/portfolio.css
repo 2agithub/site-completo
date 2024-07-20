@@ -199,7 +199,7 @@
 
             main{
               
-                height: 50vh;
+                height: 43vh;
             }
             .banner{
                 width: 100%;
@@ -209,12 +209,12 @@
             }
 
             article{
-             
+          
               height: 45vh;
             }
             
            .slider{
-           
+           margin-top: 10%;
            width: 90%;
            height: 40vh;
            }
