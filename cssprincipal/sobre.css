@@ -15,7 +15,6 @@ body, html{
 }
 
 /*---------------------------------------------HEADER*/
-
 .vem{
     display: flex;
     justify-content: center;
@@ -31,7 +30,7 @@ body, html{
 }
 
 header{
-   
+
     height: 15vh;
 }
 
@@ -65,8 +64,8 @@ header{
     display: flex;
     padding-block: 20px;  /* se refere a top e bottom*/
     gap: 10px; 
-  width: 100%;
-  margin-left: 35%;
+width: 100%;
+margin-left: 35%;
     list-style: none;
 }
 
@@ -75,17 +74,23 @@ header{
     color: #374957;
     display: flex;
     padding: 10px;
-   text-decoration: none;
-   
-   
-  
+text-decoration: none;
+
+
+
+}
+
+#contato{
+    margin-left: 20%;
+    padding-inline: 3%;
+    background-color: #d8a126;
 }
 #contato a:hover{
     background-color: #d8a126;
 }
 .nav-list a:hover{
     background-color: #111A29;
-   padding: 10px;
+padding: 10px;
     color: white;
 }
 
@@ -114,8 +119,6 @@ button{
     position: relative;
     transition: 0.3s;
 }
-
-
 
 /*---------------------------------------------MAIN*/
 
