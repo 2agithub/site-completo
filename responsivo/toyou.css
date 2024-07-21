@@ -77,14 +77,14 @@
            
             transform: translateY(60px);
           }
-
+  
            #contato{
                 background-color: #a5c;
                 margin: 0 auto;
                }
           
           
-.hamburger {
+  .hamburger {
     display: none;
     border: none;
     background: none;
@@ -103,15 +103,15 @@
     position: relative;
     transition: 0.3s;
   }
-
+  
           @media (max-width: 750px){
-
+  
             .hamburger {
                 display: block;
                 overflow-y: hidden;
                 z-index: 1;
               }
-
+  
              
               
             
@@ -140,9 +140,9 @@
                 position: relative;
                 top: 10px;
               }
-
+  
              
-
+  
               .nav-list li:nth-child(1) a {
                 transition: 0.5s 0.2s;
               }
@@ -187,15 +187,16 @@
                 top: -7px;
                 
               }
-
-
+  
+  
           }
         
                 
             .banner-t img{
                display: none;
             }
-
+  
+           
            
         /*---------------------------------------------MAIN*/
 
