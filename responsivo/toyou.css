@@ -73,7 +73,9 @@
           .nav-list a {
             font-size: 18px;
             color: #fff;
-            padding-block: 5px;
+            padding-block: 10px;
+           
+            transform: translateY(60px);
           }
 
            #contato{
