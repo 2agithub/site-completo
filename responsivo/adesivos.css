@@ -213,22 +213,32 @@ transition: 0.3s;
     }
     aside{
        
+       display: none;
         width: 30%;
     }
-    .aside{
-        width: 100%;
-        margin-left: 0 ;
+    
+    .produ-bar{
+        
+        margin-top: 20%;
+      text-align: center;
+        height: 85vh;
         
     }
-   aside li{
-   
-    margin-top: 3.5%;
+
+    
+
+   .produ-bar a{
+    text-decoration: none;
+    
+    
+    
    }
-   aside li a{
-      
-        font-size: 18px;
-        
-    }
+   .produ-bar img{
+    margin-block: 5%;
+    margin-inline: 1%;
+    border: solid rgba(0, 0, 0, 0.132);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.163);
+   }
     
     main{
         width: 100%;
