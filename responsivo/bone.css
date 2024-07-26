@@ -231,6 +231,16 @@ transition: 0.3s;
         background-size: 320px;
         width: 45%;
     }
+    #btn{
+       background-color: black;
+       border-radius: 0px;
+       margin-top: 50%;
+        width: 60%;
+        height: 5vh;
+    }
+    #btn a{
+        color: white;
+    }
     #produ-right{
         display: flex;
         background-image: url(../banner/subli.png);
@@ -266,13 +276,11 @@ transition: 0.3s;
     #card{
         margin: 0 auto;
         margin-top: 15%;
-       
     }
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(215%);
-       
+       transform: translateY(210%);
     }
     
    
