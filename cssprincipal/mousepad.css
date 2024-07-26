@@ -75,6 +75,14 @@ body, html{
    
   
 }
+#contato{
+    margin-left: 20%;
+    padding-inline: 3%;
+    background-color: #d8a126;
+}
+#contato a:hover{
+    background-color: #d8a126;
+}
 #contato a:hover{
     background-color: #d8a126;
 }

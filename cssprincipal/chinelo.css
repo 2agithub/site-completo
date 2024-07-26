@@ -75,6 +75,14 @@ body, html{
    
   
 }
+#contato{
+    margin-left: 20%;
+    padding-inline: 3%;
+    background-color: #d8a126;
+}
+#contato a:hover{
+    background-color: #d8a126;
+}
 #contato a:hover{
     background-color: #d8a126;
 }
@@ -170,6 +178,28 @@ button{
  li a{
      text-decoration: none;
      color: black;
+ }
+
+ #produ-left a{
+    color: black;
+    font-weight: bold;
+ }
+ #produ-leftt{
+    background-image: url(../banner/subli.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ #produ-leftt a{
+    color: black;
+    font-weight: bold;
+ }
+ #btn{
+    margin-top: 50%;
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    
  }
  .produ-right{
      display: none;

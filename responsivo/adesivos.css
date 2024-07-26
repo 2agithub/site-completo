@@ -221,15 +221,25 @@ transition: 0.3s;
       
         margin-top: 15%;
         height: 20vh;
-        gap: 12px;
+        
         display: flex;
         justify-content: center;
+       
+        
+    }
+    .pb{
+       
+        width: 100%;
+        display: flex;
+    
+        justify-content: space-between;
     }
     #produ-left{
         background-image: url(../banner/est.png);
         background-repeat: no-repeat;
         background-size: 320px;
         width: 45%;
+        margin-left: 3%;
     }
     #produ-right{
         display: flex;
@@ -238,6 +248,11 @@ transition: 0.3s;
         background-size: 300px;
         background-position: ;
         width: 45%;
+    }
+
+    #produ-right a{
+        color: black;
+        font-weight: bold;
     }
 
     
