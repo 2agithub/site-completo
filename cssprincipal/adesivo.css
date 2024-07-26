@@ -162,6 +162,10 @@ button{
  .produ-left h2{
      margin-left: 8%;
  }
+
+ .produ-bar{
+    display: none;
+ }
  
 .produ{
     

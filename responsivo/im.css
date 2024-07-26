@@ -231,6 +231,16 @@ transition: 0.3s;
         background-size: 320px;
         width: 45%;
     }
+    #btn{
+       background-color: black;
+       border-radius: 0px;
+       margin-top: 50%;
+        width: 60%;
+        height: 5vh;
+    }
+    #btn a{
+        color: white;
+    }
     #produ-right{
         display: flex;
         background-image: url(../banner/subli.png);
@@ -264,7 +274,7 @@ transition: 0.3s;
    
 
     .produ-baar a{
-      
+        font-size: 11px;
         text-decoration: none;
        padding-inline: 35%;
         padding-block: 5%;
