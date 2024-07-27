@@ -256,7 +256,7 @@ transition: 0.3s;
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 120vh;
+       height: 835vh;
      
     }
     .main{
@@ -276,11 +276,43 @@ transition: 0.3s;
     #card{
         margin: 0 auto;
         margin-top: 15%;
+       
+        
     }
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(95%);
+       transform: translateY(330%);
+    }
+
+    #card-3{
+        margin: 0 auto;
+       
+       
+       transform: translateY(307%);
+       margin-block: 15%;
+    }
+
+    #card-4{
+        margin: 0 auto;
+       
+       
+       transform: translateY(460%);
+       margin-block: 15%;
+    }
+
+    #card-5{
+        margin: 0 auto;
+       
+       margin-block: 15%;
+       transform: translateY(605%);
+    }
+
+    #card-6{
+        margin: 0 auto;
+       
+       margin-block: 15%;
+       transform: translateY(705%);
     }
     
    
