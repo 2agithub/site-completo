@@ -75,6 +75,9 @@ body, html{
    
   
 }
+.produ-bar{
+    display: none;
+ }
 #contato{
     margin-left: 20%;
     padding-inline: 3%;

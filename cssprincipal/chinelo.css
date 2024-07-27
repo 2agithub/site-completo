@@ -215,7 +215,9 @@ button{
      margin-left: 35%;
      text-decoration: none;
  }
- 
+ .produ-bar{
+    display: none;
+ }
  
  main{
  

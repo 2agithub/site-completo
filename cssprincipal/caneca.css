@@ -54,7 +54,9 @@ body, html{
 
 
 
-
+.produ-bar{
+    display: none;
+ }
 
 .nav-list{
     display: flex;
