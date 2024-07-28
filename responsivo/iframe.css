@@ -250,13 +250,34 @@ transition: 0.3s;
         width: 45%;
     }
 
+    .nav-produtos{
+        width: 100%;
+        
+    }
+    .produ-left{
+       display: none;
+        
+    }
+    ul{
+       
+        width: 100%;
+    }
+    li{
+        text-align: center;
+        width: 100%;
+    }
+    li a{
+        font-size: 12px;
+        
+    }
+
     
     main{
         width: 100%;
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 760vh;
+       height: 1280vh;
      
     }
     .main{
@@ -270,7 +291,7 @@ transition: 0.3s;
     }
     .card{
         margin: 0 auto;
-     
+        margin-top: 15%;
        
     }
     #card{
@@ -282,7 +303,7 @@ transition: 0.3s;
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(330%);
+       transform: translateY(110%);
     }
 
     #card-3{
