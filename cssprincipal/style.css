@@ -25,6 +25,7 @@ a {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: white;
   }
   
   nav {
@@ -34,6 +35,7 @@ a {
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
     height: 8vh;
+    
   }
   
   
@@ -41,7 +43,16 @@ a {
   .nav-list {
     list-style: none;
     display: flex;
+   
   }
+
+  .nav-list a {
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+
+  
   
   .nav-list li {
     letter-spacing: 3px;
@@ -51,6 +62,7 @@ a {
   .mobile-menu {
     display: none;
     cursor: pointer;
+    
   }
   
   .mobile-menu div {
@@ -59,6 +71,7 @@ a {
     background: #fff;
     margin: 8px;
     transition: 0.3s;
+    
   }
   
   @media (max-width: 999px) {
@@ -66,6 +79,7 @@ a {
       overflow-x: hidden;
     }
     .nav-list {
+        z-index: 111;
       position: absolute;
       top: 8vh;
       right: 0;
@@ -86,12 +100,7 @@ a {
       display: block;
     }
   
-    main{
-      width: 93%;
-      margin: auto;
-      display: flex;
-     
-  }    
+ 
   
   }
   
@@ -157,7 +166,7 @@ a {
     height:15vh;
     width: 100%;
     display: flex;
-    
+   
  
 }
 #q1{
@@ -170,6 +179,7 @@ a {
 }
 #q1 img{
     width: 100%;
+    height: 8vh;
 
 }
 .opcoes{
@@ -267,14 +277,14 @@ color: black;
 
 
 main{
-   
+    
    
     height: 300vh;
 }
 
 
 iframe{
-    
+   
     width: 100%;
     height: 100vh;
 }
@@ -312,7 +322,7 @@ iframe{
 .parceiros{
     width: 100%;
     height: 30vh;
-   
+    border: solid red;
     text-align: center;
     margin-top: 10%;
 }
