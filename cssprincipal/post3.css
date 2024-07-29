@@ -143,7 +143,7 @@ main{
 .main-principal{
     
     width: 81.5%;
-    height: 230vh;
+    height: 250vh;
     
     
    
@@ -183,7 +183,7 @@ main{
 }
 .main-noticias{
     
-    height: 155vh;
+    height: 170vh;
     
     
 }
@@ -271,7 +271,7 @@ text-align: justify;
 }
 .direcoes a{
     text-decoration: none;
-
+    color: red;
 }
 
 
