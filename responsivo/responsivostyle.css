@@ -137,20 +137,22 @@
 #q1{
  
     width: 50%;
-    height: 8vh;
+    height: 9vh;
 }
 
 .opcoes{
 
-height: 80vh;
+height: 84vh;
+
 }
 .escolha{
    
     display: block;
-    height: 80vh;
+    height: 84vh;
+    
 }
 .grafica{
-
+margin-bottom: 5%;
 width: 100%;
 }
 button{
@@ -202,7 +204,7 @@ height: 80vh;
 
 main{
     
-    height: 200vh;
+    height: 220vh;
 }
 .nav-main{
     
