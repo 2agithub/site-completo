@@ -67,6 +67,7 @@
     @media (max-width: 999px) {
       body {
         overflow-x: hidden;
+
       }
       .nav-list {
         position: absolute;
@@ -133,19 +134,19 @@
         /*---------------------------------------------MAIN*/
 
             main{
-              
-                height: 43vh;
+             
+                height: 55vh;
             }
             .banner{
                 width: 100%;
-                height:50vh;
+                height:55vh;
                 font-size: 12px;
                
             }
 
             article{
-          
-              height: 45vh;
+              
+              height: 50vh;
             }
             
            .slider{
@@ -170,8 +171,8 @@
            
 
            .article-txt{
-            
-            height: 45vh;
+           
+            height: 80vh;
            }
 
 
@@ -184,12 +185,12 @@ footer{
 }
 .footer{
     height: 1vh;
-    margin-left: 5%;
+  
    
 
     width: 90%;
     display: flex;
-    gap: 70px;
+    
 }
 .footer ul{
     list-style: none;
