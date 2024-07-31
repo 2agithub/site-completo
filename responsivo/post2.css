@@ -133,15 +133,16 @@
             width: 93%;
             margin: auto;
             display: flex;
-           margin-top: 10%;
-           height: 490vh;
+            margin-top: 30%;
+           height: 470vh;
+           
         }    
         
         .main-principal{
             
             width: 100%;
-            height: 430vh;
-            
+            height: 330vh;
+           
             display: block;
         }
         .main-topo{
@@ -155,8 +156,12 @@
         }
         
         .paragrafo{
+            font-size: 13px;
            
-           
+        }
+        .ph h1{
+       
+            font-size: 25px;
         }
         
         
@@ -172,7 +177,7 @@
         }
         .main-noticias{
             display: block;
-            height: 380vh;
+            height: 330vh;
             
            
            
@@ -266,7 +271,10 @@
             margin-bottom: 20px;
             
         }
-        
+        .direcoes{
+            
+            margin-top: 10%;
+        }
         
         
         .main-left{
