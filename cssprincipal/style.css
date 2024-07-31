@@ -37,10 +37,15 @@ nav {
   height: 8vh;
 }
 
-.nav-list a {
-  list-style: none;
-  display: flex;
+.nav-list a{
+  font-size: 18px;
   color: white;
+  display: flex;
+  padding: 10px;
+ text-decoration: none;
+ 
+ 
+
 }
 
 main {
