@@ -1,5 +1,5 @@
 
-@media (max-width: 540px){
+@media (max-width: 640px){
     
     *{
         padding: 0;
@@ -14,6 +14,8 @@
     }
 
     /*---------------------------------------------HEADER*/
+
+
     a {
         color: #fff;
         text-decoration: none;
@@ -39,7 +41,11 @@
         height: 8vh;
       }
       
-      
+      main {
+        background: url("bg.jpg") no-repeat center center;
+        background-size: cover;
+        height: 92vh;
+      }
       
       .nav-list {
         list-style: none;
@@ -64,7 +70,7 @@
         transition: 0.3s;
       }
       
-      @media (max-width: 999px) {
+      @media (max-width: 640px) {
         body {
           overflow-x: hidden;
         }
@@ -80,6 +86,7 @@
           justify-content: space-around;
           transform: translateX(100%);
           transition: transform 0.3s ease-in;
+          z-index: 1;
         }
         .nav-list li {
           margin-left: 0;
@@ -88,9 +95,6 @@
         .mobile-menu {
           display: block;
         }
-      
-        
-      
       }
       
       .nav-list.active {
@@ -119,8 +123,7 @@
       .mobile-menu.active .line3 {
         transform: rotate(45deg) translate(-5px, -7px);
       }
-      
-         
+    
     .banner-t{
         display: none;
     }
@@ -171,11 +174,12 @@ button a{
 
 
 .estamparia{
-    
+   
     width: 100%;
 }
 
 .estamparia button{
+   
    margin-top: 35%;
     margin-left: 25%;
     width: 50%;
