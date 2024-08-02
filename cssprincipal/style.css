@@ -92,7 +92,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transform: translateX(-1000%);
+    transform: translateX(-200%);
     transition: transform 0.20s ease-in;
    
   }
@@ -182,7 +182,7 @@ nav {
 }
 #q1 img{
     width: 100%;
-    
+    display: none;
 
 }
 .opcoes{
