@@ -85,15 +85,15 @@ nav {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 100vw;
+    width: 50vw;
     height: 92vh;
-    
+    z-index: 1;
     background: #23232e;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     transform: translateX(-1000%);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.20s ease-in;
    
   }
   .nav-list li {
