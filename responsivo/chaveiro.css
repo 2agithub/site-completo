@@ -14,6 +14,12 @@
     }
 
     /*---------------------------------------------HEADER*/
+    #online{
+        font-style: oblique;
+        font-size: 8.5px;
+      border: solid red;
+        width: 100%;
+      }
     a {
         color: #fff;
         text-decoration: none;
@@ -237,12 +243,12 @@
             }
             
             .footer-fim{
-                background-color: #E8E7E7;
+                background-color: #B6B6B6;
+                color: white;
                 font-size: 12px;
                 text-align: center;
-                padding-block: 6%;
-                
-            } 
+                padding-block: 2%;
+            }
     
     
                 
