@@ -259,7 +259,7 @@ nav {
  main{
  
     width: 100%;
-    height: 140vh;
+    height: 160vh;
     display: flex;
  }
  .main{
@@ -272,10 +272,8 @@ nav {
     border: solid #3c3c3c03;
     width: 18%;
     margin-left: 2%;
-    h
-
-    border: solid red;
-
+  
+   height: 150vh;
 
     
  }
