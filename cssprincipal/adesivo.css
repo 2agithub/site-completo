@@ -26,6 +26,9 @@ body, html{
   margin-inline: 2%;
   color: white;
 }
+.he-top span{
+ color: white;
+}
 #online{
   font-style: oblique;
   font-size: 12px;
@@ -269,6 +272,11 @@ nav {
     border: solid #3c3c3c03;
     width: 18%;
     margin-left: 2%;
+    h
+
+    border: solid red;
+
+
     
  }
  .aside{

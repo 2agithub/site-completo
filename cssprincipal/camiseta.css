@@ -24,6 +24,9 @@ body, html{
   margin-inline: 2%;
   color: white;
 }
+.he-top span{
+  color: white;
+ }
 #online{
   font-style: oblique;
   font-size: 12px;
