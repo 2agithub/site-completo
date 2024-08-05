@@ -93,7 +93,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 520vh;
+       height: 620vh;
      
     }
     .main{
@@ -107,7 +107,7 @@
     }
     .card{
         margin: 0 auto;
-      
+     
        
     }
     #card{
@@ -119,45 +119,35 @@
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(330%);
+       transform: translateY(340%);
     }
 
     #card-3{
         margin: 0 auto;
        
        
-       transform: translateY(307%);
+       transform: translateY(343%);
        margin-block: 15%;
     }
 
     #card-4{
         margin: 0 auto;
        
-       
-       transform: translateY(405%);
+        
+       transform: translateY(458%);
        margin-block: 15%;
     }
 
-    #card-5{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(605%);
-    }
+   
+   
 
-    #card-6{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(705%);
-    }
-    
+  
    
     
             /*---------------------------------------------FOOTER*/
             footer{
        
-        
+                margin-top: -25%;
      
                 height: 1vh;
                 justify-content: center;

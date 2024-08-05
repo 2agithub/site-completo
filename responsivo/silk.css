@@ -91,7 +91,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 240vh;
+       height: 305vh;
      
     }
     .main{
@@ -105,7 +105,7 @@
     }
     .card{
         margin: 0 auto;
-      
+     
        
     }
     #card{
@@ -117,23 +117,16 @@
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(220%);
+       transform: translateY(230%);
     }
 
-    #card-3{
-        margin: 0 auto;
-        
-        
-       transform: translateY(208%);
-    }
-    
    
     
             /*---------------------------------------------FOOTER*/
             footer{
        
         
-     
+                margin-top: -25%;
                 height: 1vh;
                 justify-content: center;
             }
