@@ -391,7 +391,48 @@ iframe{
 
 
 
+.Atendimento{
+  
+ 
+}
 
+.wh{
+  display: flex;
+  justify-content: center;
+ width: 100%;
+  text-align: center;
+}
+.zapzap{
+background-color: #23232e;
+border-radius: 5px 5px 5px ;
+width: 20%;
+height: 5vh;
+color: white;
+
+
+}
+
+.zapzap:hover{
+  background-color: darkgreen;
+
+}
+
+.atenden{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.atendimento-horas{
+text-align: center;
+margin-top: 2%;
+}
+
+.atendimento-horas p{
+  margin-bottom: 2%;
+}
+.atendimento-horas li{
+  color: #868686;
+}
 
 
 footer{
