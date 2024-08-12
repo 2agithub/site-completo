@@ -410,6 +410,28 @@ iframe{
 }
 
 
+ 
+  
+  .opinioes-clientes{
+    border: solid #31538F;
+    height: 61.5vh;
+    background-color: white;
+  }
+
+  .clien{
+    text-align: center;
+     align-items: center;
+     justify-content: center;
+     
+    
+   }
+   .clien h3{
+ margin-top: 6%;
+     color: #959595;
+     height: 5vh;
+   
+     
+    }
 
 
 @keyframes slide {
