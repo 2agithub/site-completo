@@ -413,7 +413,7 @@ iframe{
  
   
   .opinioes-clientes{
-    border: solid #31538F;
+    border: solid white;
     height: 61.5vh;
     background-color: white;
   }
@@ -426,11 +426,94 @@ iframe{
     
    }
    .clien h3{
- margin-top: 6%;
+ margin-top: 3%;
      color: #959595;
      height: 5vh;
    
      
+    }
+
+    .quadro{
+     
+      height: 45.5vh;
+     display: flex;
+     justify-content: center;
+    }
+    .quadro-clientes{
+      background-color: #fff;
+    
+   
+    width: 250px;
+    height: 330px;
+    
+    box-shadow: 4px 4px 12px #aaaa;
+      width: 66%;
+      height: 45.5vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    #quadro{
+     border: 0.1px solid #3995d280;
+     height: 43vh;
+      width: 30%;
+    display: flex;
+    justify-content: center;
+    
+    }
+    .quadro-circle{
+      border: 3px  solid #aaaaaa2f;
+      box-shadow: 2px 2px 12px #aaaaaa48;
+      margin-top: 5%;
+     height: 13vh;
+      width: 40%;
+      border-radius: 50%;
+      display: block;
+      background-color: #3996d2;
+    
+    }
+
+    .quadro-circle p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 12vh;
+      font-size: x-large;
+      color: white;
+      font-weight: bolder;
+    }
+    .pai{
+      position: absolute;
+     
+      width: 20%;
+      transform: translateY(120px);
+      height: 26vh;
+     text-align: justify;
+     color: #3996D2;
+     
+    }
+    .nome{
+    
+     height: 5vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .frase{
+      font-size: small;
+      height: 17vh;
+      display: flex;
+      align-items: center;
+     margin-left: 5%;
+      width: 90%;
+    }
+    .estrela{
+      
+      height: 4vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
 
@@ -488,10 +571,7 @@ iframe{
 }
 
 
-.Atendimento{
-  
- 
-}
+
 
 .wh{
   display: flex;
@@ -532,6 +612,8 @@ margin-top: 2%;
 .atendimento-horas li{
   color: #868686;
 }
+
+
 
 
 footer{
