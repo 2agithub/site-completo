@@ -253,77 +253,86 @@ nav {
 
         /*---------------------------------------------FOOTER*/
 
+
+
+
         footer{
-        
-            height: 60vh;
-            
-            
-            justify-content: center;
-        }
-        .footer{
-            
-            margin-left: 5%;
-        
-            height: 45vh;
-            width: 90%;
-            display: flex;
-            gap: 70px;
-        }
-        .footer ul{
-            list-style: none;
-        
-            width: 35%;
-        }
-        .footer li{
-            margin-top: 15%;
-        }
-        #formas{
-        margin-top: -15%;
-        }
-
-        .footer h3{
-            font-weight: bolder;
-        }
-        #footer{
-            padding-block: 1%;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 14px;
-        }
-
-        #footer-inf {
-        
-            font-size: 15px;
-            margin-top: 2%;
-            text-align: justify;
-        }
-
-        .entrega{
-            display: inline-block;
-        
-        }
-        .seguro{
-        
-            transform: translateY(20px);  
-        }
-        #footers{
-            display: flex;
-            font-size: 14px;
-        }
-
-        #footer-inf-p{
-            margin-top: 4%;
-        }
-
-        .footer-fim{
-          background-color: #B6B6B6;
-          color: white;
-          font-size: 12px;
-          text-align: center;
-          padding-block: 2%;
-        }
-
-
+          margin-top: 5%;
+           height: 60vh;
+           background-color: #F5F5F5 ;
+           
+           justify-content: center;
+       }
+       .footer{
+           
+           margin-left: 5%;
+          
+           height: 45vh;
+           width: 90%;
+           display: flex;
+           gap: 70px;
+       }
+       .footer ul{
+           list-style: none;
+          
+           width: 35%;
+       }
+       .footer li{
+           margin-top: 15%;
+       }
+       #formas{
+       margin-top: -15%;
+       }
+       
+       .footer h3{
+         color: #19202a;
+           font-weight: bolder;
+           font-size: 13px;
+       }
+       #footer{
+           padding-block: 1%;
+           display: flex;
+           align-items: center;
+           gap: 10px;
+           color: #696969;
+           font-size: 12px;
+       }
+       
+       #footer-inf {
+         color: #696969;
+           font-size: 12px;
+           margin-top: 2%;
+           text-align: justify;
+       }
+       
+       .entrega{
+           display: inline-block;
+          
+       }
+       .seguro{
+           
+           transform: translateY(20px);  
+       }
+       .seguro h3{
+         font-size: 13px;
+           
+       }
+       #footers{
+         
+           display: flex;
+           font-size: 12px;
+       }
+       
+       #footer-inf-p{
+           margin-top: 4%;
+       }
+       
+       .footer-fim{
+           background-color: #B6B6B6;
+           color: white;
+           font-size: 10px;
+           text-align: center;
+           padding-block: 2%;
+       }
 
 
