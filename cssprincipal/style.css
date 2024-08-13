@@ -280,6 +280,8 @@ margin-top: 10%;
 }
 .cho-se h1{
   margin-bottom: 1%;
+
+
   color: #19202a;
  }
 .cho-se p{
@@ -309,6 +311,7 @@ gap: 20px;
     width: 38%;
     height: 26vh;
     background-repeat: no-repeat;
+   
 }
  button{
     width: 20%;
@@ -398,7 +401,7 @@ color: black;
 main{
     margin-top: 25%;
  
-    height: 250vh;
+    height: 160vh;
 }
 
 
@@ -407,6 +410,8 @@ iframe{
     width: 100%;
     height: 120vh;
 }
+
+
 .produ-right{
     display: flex;
     align-items: center;
@@ -423,6 +428,21 @@ iframe{
     margin-top: 43%;
     text-decoration: none;
     
+}
+.banner-pix{
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+}
+.pix{
+  background-image: url(../imagem/pix.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 83%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
 }
 .banner-melhor{
    margin-top: 5%;
