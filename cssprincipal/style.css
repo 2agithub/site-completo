@@ -235,22 +235,40 @@ margin-right: 12%;
     height:15vh;
     width: 100%;
     display: flex;
+   justify-content: center;
    
  
 }
 #q1{
     display: flex;
     margin: 0 auto;
-
-    width: 20%;
-    
+    justify-content: center;
+    width: 40%;
+    border-right: solid;
+    height: 10vh;
     font-weight: bold;
 }
+#q2{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 40%;
+ 
+  font-weight: bold;
+}
 #q1 img{
-    width: 100%;
-    
+    width: 70%;
+    height: 13vh;
+   
 
 }
+#q2 img{
+  width: 70%;
+  height: 13vh;
+ 
+
+}
+
 
 .cho-se{
  text-align: center;
@@ -288,8 +306,8 @@ gap: 20px;
 }
 .grafica{
     background-image: url(../banner/est.png);
-    width: 60%;
-    height: 40vh;
+    width: 38%;
+    height: 26vh;
     background-repeat: no-repeat;
 }
  button{
@@ -297,7 +315,7 @@ gap: 20px;
     height: 5vh;
     border-radius: 50px;
     margin-left: 10%;
-    margin-top: 30%;
+    margin-top: 40%;
     background-color: white;
     
 }
@@ -309,16 +327,17 @@ gap: 20px;
 }
 .estamparia{
     background-image: url(../banner/subli.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 40vh;
-    
+    width: 72%;
+    height: 54vh;
+   
 }
 .button{
     width: 30%;
     height: 5vh;
     border-radius: 50px;
-    margin-top: 45%;
+    margin-top: 30%;
     
     position:relative;
     background-color: white;
@@ -330,6 +349,18 @@ gap: 20px;
    font-size: 17px;
     
 }
+
+.serigrafia{
+  
+  background-image: url(../imagem/serigr.png);
+    width: 30.7%;
+    height: 26vh;
+    margin-left: 64.5%;
+    margin-top: -14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .destaques{
    
@@ -365,7 +396,7 @@ color: black;
 
 
 main{
-    margin-top: 20%;
+    margin-top: 25%;
  
     height: 250vh;
 }
@@ -507,11 +538,15 @@ iframe{
       align-items: center;
      margin-left: 5%;
       width: 90%;
+      border-top: 0.1px solid #aaaa ;
+
     }
     .estrela{
-      
+      border-top: 0.1px solid #aaaa ;
+      width: 70%;
       height: 4vh;
       display: flex;
+      margin-left: 15%;
       align-items: center;
       justify-content: center;
     }
@@ -670,7 +705,7 @@ margin-top: -15%;
    
 }
 .seguro{
-  
+    
     transform: translateY(20px);  
 }
 .seguro h3{
