@@ -177,29 +177,11 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-.sub-nav{
-  display: flex;
- margin-top: 4.5%;
- 
-  height: 13vh;
-  align-items: center;
-  justify-content: right;
 
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-}
-.sub-nav ul{
-list-style: none;
-margin-right: 12%;
-}
-.sub-nav a{
- margin-left: 25px;
- color: #696969;
- text-decoration: underline;
-}
 
   
 .banner-t{
-    
+    margin-top: 4.4%;
     display: flex;
    justify-content: center;
    
@@ -400,8 +382,8 @@ color: black;
 
 main{
     margin-top: 25%;
- 
-    height: 300vh;
+   
+    height: 230vh;
 }
 
 
@@ -409,6 +391,7 @@ iframe{
    
     width: 100%;
     height: 120vh;
+   
 }
 
 
@@ -429,95 +412,80 @@ iframe{
     text-decoration: none;
     
 }
-.outros-servico{
 
-  margin-top: 2%;
-  height: 70vh;
-  background-image: url(../imagem/Sem\ Título-1.png);
-  text-align: center;
+.main-servicos{
+text-align: center;
+
+margin-top: 10%;
+
 }
-.servicos{
-  border: solid red;
-  height: 50vh;
-}
-.servicos-titulo{
-  text-align: center;
+.main-servicos h2{
+  margin-bottom: 1%;
+
+
   color: #19202a;
-}
-
-
-.main-produtos {
+ }
+.main-servicos p{
+  margin-bottom: 2%;
+  color: #696969;
+ }
+.outros-servicos{
+ 
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
- 
-  font-family: "Arial";
-  gap:16px;
-  margin-top: 2%;
-  
+  gap: 16px;
 }
-
-.card {
+.outros-servicos a{
   background-color: #fff;
-  
- 
+    
+   
   width: 250px;
   height: 330px;
   border-radius: 12px;
   box-shadow: 4px 4px 12px #aaaa;
 }
-#card{
-  
-  margin-top: 3%;
+#a1{
+  background-image: url(../imagem/des.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+
 }
-.card img {
-  width: 100%;
-  height: 200px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+#a2{
+  background-image: url(../imagem/webdes.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+
 }
-.card div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  height: 40%;
-}
-.card h1 {
-  font-size: 1.2rem;
-}
-.card h2 {
-  font-size: .9rem;
-  color: #aaaa;
-}
-.card button {
-  background-color: #3996D2;
-  height: 30px;
-  border: none;
-  padding: 4px;
-  width: 80%;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 4px;
-}
-.card button:hover {
-  background-color: #137de8;
-  cursor: pointer;
+#a3{
+  background-image: url(../imagem/manudes.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+
 }
 
-button a {
-  text-decoration: none;
-  color: white;
+
+.banner-servico{
+
+
+  height: 70vh;
+
+  background-image: url(../imagem/Sem\ Título-1.png);
+  text-align: center;
+  background-repeat: no-repeat;
 }
+
+
 
 
 
 .banner-pix{
   width: 100%;
- 
+ margin-bottom: 2%;
   display: flex;
   justify-content: center;
 }
