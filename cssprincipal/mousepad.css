@@ -179,6 +179,18 @@ opacity: 0;
 .mobile-menu.active .line3 {
 transform: rotate(45deg) translate(-5px, -7px);
 }
+
+.banner-t{
+    
+  display: flex;
+ justify-content: center;
+ margin-top: -3.7%;
+
+  
+  
+ 
+  
+}
 .carrossel{
     overflow: hidden;
     
