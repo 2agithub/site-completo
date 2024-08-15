@@ -15,6 +15,11 @@
   }
 
   /*---------------------------------------------HEADER*/
+  .header-topo{
+
+    background-color: #3996D2;
+    
+    }
   #online{
     font-style: oblique;
     font-size: 8.5px;

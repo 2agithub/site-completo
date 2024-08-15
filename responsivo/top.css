@@ -138,59 +138,12 @@
     }
     #card-2{
        margin: 0 auto;
-        margin-block: 15%;
-       transform: translateY(110%);
-    }
-
-    #card-3{
-        margin: 0 auto;
-       
-       
-       transform: translateY(307%);
-       margin-block: 15%;
-    }
-
-    #card-4{
-        margin: 0 auto;
-       
+        margin-block: 12%;
+       transform: translateY(268%);
       
-       transform: translateY(460%);
-       margin-block: 15%;
     }
 
-    #card-5{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(610%);
-    }
-
-    #card-6{
-        margin: 0 auto;
-        
-       margin-block: 15%;
-       transform: translateY(765%);
-    }
-
-    #card-7{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(920%);
-    }
-    #card-8{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(1075%);
-    }
-    #card-9{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(1230%);
-    }
-
+    
     
    
     
