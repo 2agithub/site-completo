@@ -60,17 +60,17 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-   
+    height: 50vh;
+   margin-top: -5%;
     font-family: "Arial";
     gap:16px;
-    margin-top: 2%;
-    
+  
+   
 }
 
   .card {
     background-color: #fff;
-    
+   
    
     width: 250px;
     height: 330px;
@@ -78,7 +78,7 @@ li a{
     box-shadow: 4px 4px 12px #aaaa;
   }
   #card{
-    
+  
     margin-top: 15%;
   }
   .card img {
