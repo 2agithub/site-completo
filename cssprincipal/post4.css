@@ -324,7 +324,7 @@ text-align: justify;
     margin-left:1.7%;
     height: 180vh;
     width: 16.8%;
-    
+    margin-top: 4%;
 }    
 
 .post{
@@ -380,7 +380,7 @@ text-align: justify;
 }
 
 .saiba{
-    
+    transform: translateY(90px);
     height: 80vh;
     padding-top: 20%;
     
@@ -407,7 +407,7 @@ text-align: justify;
 
 
 .card-anuncio{
-   
+    transform: translateY(150px);
     height: 54vh;
     
 }    
