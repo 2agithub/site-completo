@@ -476,7 +476,7 @@ margin-top: 10%;
 
 
   height: 81vh;
-
+  border: solid red;
   background-image: url(../imagem/Sem\ Título-1.png);
   text-align: center;
   background-repeat: no-repeat;
