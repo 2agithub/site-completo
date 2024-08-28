@@ -384,6 +384,7 @@ main{
     
     height: 80vh;
     padding-top: 20%;
+    transform: translateY(90px);
     
 }    
 
@@ -408,7 +409,8 @@ main{
 
 
 .card-anuncio{
-   
+  
+   transform: translateY(150px);
     height: 54vh;
     
 }    
