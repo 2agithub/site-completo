@@ -295,16 +295,28 @@ gap: 20px;
     background-repeat: no-repeat;
    
 }
- button{
-    width: 20%;
+ .button1{
+    width: 30%;
+    
     height: 5vh;
     border-radius: 50px;
     margin-left: 10%;
-    margin-top: 40%;
+    margin-top: 30%;
     background-color: white;
     
 }
- button a{
+
+.button2{
+  width: 40%;
+  
+  height: 5vh;
+  border-radius: 50px;
+  margin-left: 30%;
+  margin-top: 20%;
+  background-color: white;
+  
+}
+ .button a{
    text-decoration: none;
    color: #374957;
    font-size: 17px;
@@ -318,16 +330,7 @@ gap: 20px;
     height: 54vh;
    
 }
-.button{
-    width: 30%;
-    height: 5vh;
-    border-radius: 50px;
-    margin-top: 30%;
-    
-    position:relative;
-    background-color: white;
-    
-}
+
  .button a{
    text-decoration: none;
    color: #374957;
