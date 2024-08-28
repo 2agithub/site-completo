@@ -320,13 +320,13 @@ aside a:hover{
    
     font-family: "Arial";
     gap:16px;
-    margin-top: 2%;
+    margin-bottom: 15%;
     
 }
 
   .card {
     background-color: #fff;
-    
+  
     width: 180px;
     height: 260px;
     border-radius: 12px;
@@ -339,6 +339,7 @@ aside a:hover{
     border-top-right-radius: 12px;
   }
   .card div {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
