@@ -180,6 +180,7 @@ main{
     margin: auto;
     display: flex;
     margin-top: 10%;
+    
 }    
 
 .main-principal{
@@ -193,7 +194,7 @@ main{
 
 .main-topo{
     width: 90%;
-    
+   
     height: 5vh;
     justify-content: center;
     align-items: center;
@@ -224,8 +225,8 @@ main{
     
 }
 .main-noticias{
-    
-    height: 200vh;
+  
+    height: 220vh;
     
     
 }
