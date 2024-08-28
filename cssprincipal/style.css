@@ -477,7 +477,9 @@ margin-top: 10%;
 
   height: 81vh;
  
-
+  background-image: url(../imagem/bannerwin.png);
+  text-align: center;
+  background-repeat: no-repeat;
 }
 
 
