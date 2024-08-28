@@ -288,7 +288,7 @@ display: flex;
  main{
  
   width: 100%;
-  height: 190vh;
+  height: 200vh;
   display: flex;
 }
 .main{
@@ -301,7 +301,7 @@ aside{
   width: 18%;
   margin-left: 2%;
 
- height: 199vh;
+ height: 208.5vh;
 
   
 }
@@ -335,7 +335,7 @@ text-decoration: none;
    
     font-family: "Arial";
     gap:16px;
-    margin-top: 2%;
+    margin-bottom: 10%;
     
 }
 .produ-bar{
