@@ -245,7 +245,7 @@ height: 13vh;
   
   
   .banner-both{
-    background-image: url(./subli-masc.png);
+    background-image: url(../css/subli-masc.png);
     background-repeat: none;
     background-size: cover;
     width: 60%;
@@ -258,7 +258,7 @@ height: 13vh;
   }
   .banner-top{
    margin-bottom: 1%;
-   background-image: url(./graf-masc.png);
+   background-image: url(../css/graf-masc.png);
    background-size: cover;
    height: 27vh;
   }
@@ -277,7 +277,7 @@ height: 13vh;
     margin-left: 20%;
   }
   .banner-bot{
-    background-image: url(./est-masc.png);
+    background-image: url(../css/est-masc.png);
     background-size: cover;
     
     height: 27vh;
@@ -348,7 +348,7 @@ main{
   }
   
   .qualidade{
-    background-image: url(./qualidade.png);
+    background-image: url(../css/qualidade.png);
     height: 60vh;
     width: 100%;
     background-size: cover;
@@ -457,7 +457,7 @@ main{
   }
   
   .pix{
-    background-image: url(./pix.png);
+    background-image: url(../css/pix.png);
     height: 30vh;
     background-repeat: no-repeat;
     width: 100%;
