@@ -1,0 +1,249 @@
+
+@media (max-width: 750px){
+    
+    *{
+        padding: 0;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body, html{
+        width: 100%;
+        background-color: #F9F9F9;
+    
+    }
+
+    /*---------------------------------------------HEADER*/
+    #online{
+        font-style: oblique;
+        font-size: 8.5px;
+      
+        width: 100%;
+      }
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      
+  
+                
+          .banner-around{
+           
+            height:25vh;
+          }
+        /*---------------------------------------------MAIN*/
+
+        main{
+            
+            width: 93%;
+            margin: auto;
+            
+            height: 100vh;
+            
+        }    
+            
+
+        .main-principal{
+            
+            width: 63.5%;
+            height: 50vh;
+            margin-left: 1%;
+           
+        }
+        .main-principal, h1{
+            
+            color: #3E3E3E;
+            margin-top: 10%;
+            font-size: 20px;
+        }
+        .main-txt{
+            display: block;
+            text-align: center;
+            color: #333333;
+            margin-top: 10%;
+            
+        }
+        .txt-right{
+            color:#333333;
+            width: 100%;
+            
+            text-align: justify;
+            display: flex;
+            
+            font-size: 18px;
+            
+        }
+        .txt-left{
+            
+            width: 100%;
+            font-size: 18px;
+        
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+        /*---------------------------------------------FOOTER*/
+        footer{
+        
+            height: 21vh;
+            
+            
+        }
+
+        .bill{
+            color: #868686;
+            font-size: 12px;
+            padding: 8%;
+            text-align: center;
+            height: 10vh;
+            
+        }
+
+        .footer-rodape{
+            
+           
+            background-color: #F5F5F5;
+            height: 10.5vh;
+            
+        
+            
+        }
+        .footer-interno{
+            display: none;
+            background-color: #F5F5F5;
+            width: 95%;
+            margin: auto;
+            
+            height: 2vh;
+            display: flex;
+             
+        }
+
+        .interno{
+            display: none;
+            margin-top: 50px;
+          
+        width: 100%;
+        
+            color: #4A75C5;
+        }
+        .interno ul{
+            list-style-type: none;
+        
+            text-align: center;
+            
+        }
+        .interno p{
+            
+            text-align: center;
+            margin-top: 20px;
+            color: #696969;
+            margin-left: 2%;
+            font-size: 15px;
+            
+        }
+        #s-mais p{
+        margin-left: 30%;
+        
+        }
+        #s-mais img{
+            
+            transform: translateX(80px);
+        }
+        .foot-icon{
+            display: flex;
+            
+            
+        }
+        .foot-icon img{
+            width:11%;
+            
+            margin-top: 13px;
+            
+            
+        }
+        .redes{
+            
+            height: 10vh;
+            
+        }
+        .redes img{
+            
+            margin-top: 8%;
+            
+        }
+
+        #prazo{
+            font-size: 15px;
+        }
+
+        .cartoes{
+            display: none;
+            
+            margin: auto;
+            height: 17vh;
+            color: #333333;
+            
+            text-align: center;
+            background-color: #F5F5F5;
+            
+        }   
+        .cart-txt{
+            width: 40%;
+            height: 17vh;
+        position: relative;
+        
+            
+            font-weight: bolder;
+            font-size: 8px;
+            
+        }
+        .cart-txt p{
+            margin-top: 5px;
+            font-size: 12px;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        
+
+        .entrega-img img{
+            margin-top: -7%;
+            width: 100%;
+            
+        
+        
+        }
+        .footer-fim{
+            background-color: #B6B6B6;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            padding-block: 2%;
+        }
+        #fim{
+            color: #696969;
+            font-size: 11px;
+        }  
+
+
+            
+        .whats{
+            display: none;
+            transform: translateX(25px);
+            bottom: 5px;
+            right: 5px;
+            
+        }
+
+}

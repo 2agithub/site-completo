@@ -1,0 +1,244 @@
+
+@media (max-width: 750px){
+    
+    *{
+        padding: 0;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body, html{
+        width: 100%;
+        background-color: #F9F9F9;
+    
+    }
+
+    /*---------------------------------------------HEADER*/
+    #online{
+        font-style: oblique;
+        font-size: 8.5px;
+     
+        width: 100%;
+      }
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+     
+        .banner-t img{
+           display: none;
+        }
+
+       
+       
+    /*---------------------------------------------MAIN*/
+    
+    .nav-produtos{
+       
+        
+    }
+ 
+    .produ-left{
+        width: 50%;
+        font-size: 10px;
+        margin-top: 5%;
+       
+    }
+    aside{
+       
+       display: none;
+        width: 30%;
+    }
+    
+    .produ-bar{
+      
+        margin-top: 15%;
+        height: 20vh;
+        gap: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    #produ-left{
+        background-image: url(../banner/est.png);
+        background-repeat: no-repeat;
+        background-size: 320px;
+        width: 45%;
+    }
+    #btn{
+       background-color: black;
+       border-radius: 0px;
+       margin-top: 50%;
+        width: 60%;
+        height: 5vh;
+    }
+    #btn a{
+        color: white;
+    }
+    #produ-right{
+        display: flex;
+        background-image: url(../banner/subli.png);
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: ;
+        width: 45%;
+    }
+
+    
+    main{
+        width: 100%;
+        margin: auto;
+        display: flex;
+       margin-top: 5%;
+       height: 520vh;
+     
+    }
+    .main{
+       
+        width: 63%;
+    }    
+    .main-produtos{
+        
+       
+       display: block;
+    }
+    .card{
+        margin: 0 auto;
+      
+       
+    }
+    #card{
+        margin: 0 auto;
+        margin-top: 15%;
+       
+        
+    }
+    #card-2{
+       margin: 0 auto;
+        margin-block: 15%;
+       transform: translateY(330%);
+    }
+
+    #card-3{
+        margin: 0 auto;
+       
+       
+       transform: translateY(307%);
+       margin-block: 15%;
+    }
+
+    #card-4{
+        margin: 0 auto;
+       
+       
+       transform: translateY(405%);
+       margin-block: 15%;
+    }
+
+    #card-5{
+        margin: 0 auto;
+       
+       margin-block: 15%;
+       transform: translateY(605%);
+    }
+
+    #card-6{
+        margin: 0 auto;
+       
+       margin-block: 15%;
+       transform: translateY(705%);
+    }
+    
+   
+    
+            /*---------------------------------------------FOOTER*/
+            footer{
+       
+        
+     
+                height: 1vh;
+                justify-content: center;
+            }
+            .footer{
+                height: 1vh;
+                margin-left: 5%;
+               
+            
+                width: 90%;
+                display: flex;
+                gap: 70px;
+            }
+            .footer ul{
+                list-style: none;
+               display: none;
+                width: 35%;
+                
+            }
+            .footer li{
+                display: none;
+                margin-top: 15%;
+            }
+            #formas{
+                display: none;
+            margin-top: -15%;
+            }
+            
+            .footer h3{
+                display: none;
+                font-weight: bolder;
+            }
+            #footer{
+                display: none;
+                padding-block: 1%;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 14px;
+            }
+            
+            #footer-inf {
+                display: none;
+                font-size: 15px;
+                margin-top: 2%;
+                text-align: justify;
+            }
+            
+            .entrega{
+                display: inline-block;
+                display: none;
+            }
+            .seguro{
+                display: none;
+                transform: translateY(20px);  
+            }
+            #footers{
+                display: none;
+                display: flex;
+                font-size: 14px;
+            }
+            
+            #footer-inf-p{
+                display: none;
+                margin-top: 4%;
+            }
+            
+            .footer-fim{
+                background-color: #B6B6B6;
+                color: white;
+                font-size: 12px;
+                text-align: center;
+                padding-block: 2%;
+            }
+    
+    
+                
+            .whats{
+                display: none;
+                transform: translateX(-70px);
+                bottom: 5px;
+                right: 5px;
+                
+            }
+    
+
+}
