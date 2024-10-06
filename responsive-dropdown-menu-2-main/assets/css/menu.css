@@ -77,12 +77,14 @@ a {
 /*=============== NAV ===============*/
 .nav {
   height: var(--header-height);
+  
 }
 
 .nav__logo, 
 .nav__burger, 
 .nav__close {
-  color: var(--white-color);
+  color: black;
+  
 }
 
 .nav__data {
@@ -100,6 +102,7 @@ a {
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/
   color: #333333;
+
 }
 
 .nav__logo i {
@@ -140,6 +143,7 @@ a {
     overflow: auto;
     pointer-events: none;
     opacity: 0;
+    margin-top: 6%;
     transition: top .4s, opacity .3s;
   }
   .nav__menu::-webkit-scrollbar {
@@ -152,7 +156,7 @@ a {
 }
 
 .nav__link {
-  color: #333333;
+  color: white;
   
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;

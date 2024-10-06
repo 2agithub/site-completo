@@ -14,10 +14,16 @@
     }
 
     /*---------------------------------------------HEADER*/
+   
+    .cabecalho-txt p{
+      margin-left: 6%;
+        font-size: 8px;
+    }
     #online{
+        
         font-style: oblique;
         font-size: 8.5px;
-     
+      
         width: 100%;
       }
     a {
@@ -25,7 +31,10 @@
         text-decoration: none;
         transition: 0.3s;
       }
-     
+      
+   
+    
+            
         .banner-t img{
            display: none;
         }
@@ -90,7 +99,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 520vh;
+       height: 190vh;
      
     }
     .main{
@@ -110,43 +119,11 @@
     #card{
         margin: 0 auto;
         margin-top: 15%;
-       
-        
     }
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(330%);
-    }
-
-    #card-3{
-        margin: 0 auto;
-       
-       
-       transform: translateY(307%);
-       margin-block: 15%;
-    }
-
-    #card-4{
-        margin: 0 auto;
-       
-       
-       transform: translateY(405%);
-       margin-block: 15%;
-    }
-
-    #card-5{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(605%);
-    }
-
-    #card-6{
-        margin: 0 auto;
-       
-       margin-block: 15%;
-       transform: translateY(705%);
+       transform: translateY(115%);
     }
     
    

@@ -14,7 +14,12 @@
     }
 
     /*---------------------------------------------HEADER*/
+     .cabecalho-txt p{
+      margin-left: 6%;
+        font-size: 8px;
+    }
     #online{
+        
         font-style: oblique;
         font-size: 8.5px;
       
@@ -26,7 +31,20 @@
         transition: 0.3s;
       }
       
-      
+   
+    
+    #online{
+        font-style: oblique;
+        font-size: 8.5px;
+     
+        width: 100%;
+      }
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+       
         .banner-t img{
            display: none;
         }
@@ -91,13 +109,16 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 1660vh;
+       height: 1690vh;
      
     }
     .main{
        
         width: 63%;
-    }    
+    } 
+    .aside{
+        height: 1675.5vh;
+    }   
     .main-produtos{
         
        
@@ -170,7 +191,6 @@
        transform: translateY(1377%);
        
     }
-
     
    
     
@@ -178,7 +198,7 @@
             footer{
        
         
-     
+                margin-top: -25%;
                 height: 1vh;
                 justify-content: center;
             }
@@ -252,6 +272,7 @@
                 text-align: center;
                 padding-block: 2%;
             }
+    
     
                 
             .whats{

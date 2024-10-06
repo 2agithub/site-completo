@@ -14,10 +14,16 @@
     }
 
     /*---------------------------------------------HEADER*/
+   
+    .cabecalho-txt p{
+      margin-left: 6%;
+        font-size: 8px;
+    }
     #online{
+        
         font-style: oblique;
         font-size: 8.5px;
-     
+      
         width: 100%;
       }
     a {
@@ -26,7 +32,9 @@
         transition: 0.3s;
       }
       
-  
+   
+    
+            
         .banner-t img{
            display: none;
         }
@@ -91,7 +99,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 330vh;
+       height: 250vh;
      
     }
     .main{
@@ -111,20 +119,11 @@
     #card{
         margin: 0 auto;
         margin-top: 15%;
-      
-        
     }
     #card-2{
        margin: 0 auto;
         margin-block: 15%;
-       transform: translateY(230%);
-    }
-
-    #card-3{
-        margin: 0 auto;
-        
-        
-       transform: translateY(238%);
+       transform: translateY(115%);
     }
     
    

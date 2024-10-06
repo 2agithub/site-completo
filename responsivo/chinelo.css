@@ -14,6 +14,25 @@
     }
 
     /*---------------------------------------------HEADER*/
+     .cabecalho-txt p{
+      margin-left: 6%;
+        font-size: 8px;
+    }
+    #online{
+        
+        font-style: oblique;
+        font-size: 8.5px;
+      
+        width: 100%;
+      }
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      
+   
+    
     #online{
         font-style: oblique;
         font-size: 8.5px;
@@ -92,7 +111,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 760vh;
+       height: 820vh;
      
     }
     .main{
