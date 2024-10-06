@@ -382,16 +382,8 @@ main{
     height: 29vh;
     
 } 
-.whats{
-    border: solid red;
-    
-}  
-.whats-img{
-    border: solid red;
-    
-    width: 100%;
-    
-}
+
+
 
 
 
@@ -529,12 +521,12 @@ main{
 
 
             
-        .whats{
-            display: none;
-            transform: translateX(-70px);
-            bottom: 5px;
-            right: 5px;
-            
-        }
-
+        .whats img{
+            width: 75px;
+            position: fixed;
+            bottom: 30px;
+            right: -1px;
+            box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.367);
+            z-index: 9999;
+          }
 }

@@ -111,7 +111,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 750vh;
+       height: 740vh;
      
     }
     .main{
@@ -253,13 +253,6 @@
     
     
                 
-            .whats{
-                display: none;
-                transform: translateX(-70px);
-                bottom: 5px;
-                right: 5px;
-                
-            }
-    
+          
 
 }

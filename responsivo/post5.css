@@ -60,8 +60,8 @@
             width: 93%;
             margin: auto;
             display: flex;
-            margin-top: 30%;
-           height: 450vh;
+            margin-top: -60%;
+           height: 485vh;
            
         }    
         
@@ -109,7 +109,7 @@
             display: block;
             height: 310vh;
             
-           
+            margin-top: 80%;
            
            
             
@@ -517,11 +517,5 @@
         
         
                     
-                .whats{
-                    display: none;
-                    transform: translateX(-70px);
-                    bottom: 5px;
-                    right: 5px;
-                    
-                }
+               
 }

@@ -109,11 +109,11 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 720vh;
+       height: 710vh;
      
     }
     .aside{
-        height: 705.5vh;
+        height: 695.5vh;
     }
     .main{
        
@@ -254,13 +254,7 @@
     
     
                 
-            .whats{
-                display: none;
-                transform: translateX(-70px);
-                bottom: 5px;
-                right: 5px;
-                
-            }
+          
     
 
 }

@@ -73,6 +73,32 @@
         transition: 0.3s;
       }
       
+      .wrapper{
+        z-index: -9999;
+       margin-top: -10%;
+       height: 35vh;
+        width: 100%;
+      }
+      .slide-list{
+        width: 100%;
+        height: 20vh;
+        
+      }
+      .slide-item{
+       
+        width: 100%;
+        height: 20vh;
+      }
+      .slide-image{
+      
+        width: 100%;
+        height: 15vh;
+      }
+      .slide-content{
+       
+        width: 100%;
+        height: 20vh;
+      }
 
     
     .banner-t{
@@ -81,101 +107,119 @@
             
     
 /*---------------------------------------------MAIN*/
+.banner-bottom{
+    
+    width: 100%;
+}
+.banner-b{
+    
+    width: 100%;
+}
+.banner-both{
+    
+    height: 25vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-both a{
+    border: solid red;
+    transform: translateY(80px);
+    margin-left: 2%;
+    font-size: 16px;
+}
+.banner-both2{
+    
+    height: 20vh;
+}
+.banner-both2 a{
+    border: solid red;
+    transform: translateY(20px);
+    margin-left: 2%;
+    font-size: 8px;
+}
+.banner-top{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10vh;
+    margin-top: -3px;
+}
+.banner-bot{
+   margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+
 
 .quality{
     
   display: none;
 }
-#q1{
- 
-    width: 50%;
-    height: 9vh;
-}
-
-.opcoes{
-margin-top: 40%;
-height: 104vh;
-width: 100%;
-
-
-}
-
-.button{
-
-    margin-left: 25%;
-    width: 50%;
-}
-.escolha{
-   
-    display: block;
-   
-    
-}
-.grafica{
-    
-margin-block: 10%;
-height: 30vh;
-    width: 100%;
-}
-
-
-
-.estamparia{
-
-    height: 30vh;
-    width: 100%;
-   
-}
-
-.estamparia button{
-   
-  
-    width: 50%;
-}
-
-.serigrafia{
-   
-transform: translateY(260px);
-    width: 90%;
-    height: 30vh;
-    margin: 0 auto;
-
-}
-
-.destaques{
-
-
-height: 80vh;
-}
-.destaque-dentro{
-    display: block;
-    width: 100%;
-    height: 50vh;
-
-}
-#dest{
-    margin-block: 15%;
-}
 
 
 
 main{
-    
-    height: 250vh;
-}
-.nav-main{
-    
-    height: 120vh;
+   width: 100%;
+    height: 70vh;
+  
+    margin-top: -60%;
     
 }
-iframe{
-    
-   height: 210vh;
-}
-.main-servicos{
-    margin-top: 200%;
+#h2{
+    width: 120%;
+    font-size: 25px;
     
 }
+.main2{
+    display: none;
+}
+
+
+.qualidade{
+    margin-top: -630px;
+    background-size: contain;
+}
+
+.main-produtos{
+       
+        display: none;
+     height: 100vh;
+    display: block;
+ }
+ .card{
+    display: none;
+     margin: 0 auto;
+   border: solid red;
+    
+ }
+ #card{
+    display: none;
+     margin: 0 auto;
+     margin-top: 15%;
+ }
+ #card-2{
+    display: none;
+    border: solid red;
+    margin: 0 auto;
+     margin-block: 15%;
+    transform: translateY(3005%);
+ }
+
+ .conheca-produtos{
+   
+    margin-top: -250px;
+ }
+ .conheca-produtos a{
+   padding-block: 10%;
+ }
+ .pix{
+    background-size: contain;
+    margin: 0 auto;
+   
+ }
+ 
+
 .outros-servicos{
     
     width: 100%;
@@ -210,9 +254,15 @@ height: 30vh;
     font-size: small;
     margin-block: 10%;
 }
+
+.pix{
+
+}
 .quadro{
    width: 100%;
-    height: 170vh;
+    height: 200vh;
+    margin-bottom: 50%;
+   margin-top: 20%;
 
 }
 .quadro-clientes{
@@ -238,7 +288,27 @@ width: 50%;
  
 }
 
+.logos{
+    display: flex;
+    align-items: center;
+    
+    height: 30%;
+    margin-top: 20%;
+}
+.logos-slide{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
 
+}
+.logos img{
+    width: 100%;
+    height: 20vh;
+  
+    
+    
+}
 
 .atenden{
     font-size: small;
@@ -336,13 +406,7 @@ margin-top: -15%;
 
 
     
-.whats{
-    display: none;
-    transform: translateX(-70px);
-    bottom: 5px;
-    right: 5px;
-    
-}
+
 
 
 }

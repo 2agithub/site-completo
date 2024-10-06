@@ -136,6 +136,8 @@ a {
 @media screen and (max-width: 1118px) {
   .nav__menu {
     position: absolute;
+ 
+    z-index: 99999;
     left: 0;
     top: 2.5rem;
     width: 100%;

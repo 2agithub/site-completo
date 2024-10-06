@@ -61,8 +61,8 @@
             width: 93%;
             margin: auto;
             display: flex;
-            margin-top: 30%;
-           height: 430vh;
+            margin-top: -60%;
+           height: 450vh;
            
         }    
         
@@ -109,7 +109,7 @@
         .main-noticias{
             display: block;
             height: 290vh;
-            
+            margin-top: 50%;
            
            
            
@@ -518,12 +518,6 @@
                 }
         
                     
-                .whats{
-                    display: none;
-                    transform: translateX(-70px);
-                    bottom: 5px;
-                    right: 5px;
-                    
-                }
+              
 
 }

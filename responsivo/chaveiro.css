@@ -109,7 +109,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 1500vh;
+       height: 1490vh;
      
     }
     .main{
@@ -117,7 +117,7 @@
         width: 63%;
     } 
     .aside{
-        height: 1485.5vh;
+        height: 1475.5vh;
     }   
     .main-produtos{
         
@@ -275,13 +275,7 @@
     
     
                 
-            .whats{
-                display: none;
-                transform: translateX(-70px);
-                bottom: 5px;
-                right: 5px;
-                
-            }
+            
     
 
 }

@@ -109,7 +109,7 @@
         margin: auto;
         display: flex;
        margin-top: 5%;
-       height: 1690vh;
+       height: 1675vh;
      
     }
     .main{
@@ -117,7 +117,7 @@
         width: 63%;
     } 
     .aside{
-        height: 1675.5vh;
+        height: 1660.5vh;
     }   
     .main-produtos{
         
@@ -198,7 +198,7 @@
             footer{
        
         
-                margin-top: -25%;
+                margin-top: -20%;
                 height: 1vh;
                 justify-content: center;
             }
@@ -275,13 +275,6 @@
     
     
                 
-            .whats{
-                display: none;
-                transform: translateX(-70px);
-                bottom: 5px;
-                right: 5px;
-                
-            }
-    
+           
 
 }

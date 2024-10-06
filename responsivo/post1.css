@@ -61,8 +61,9 @@
             width: 93%;
             margin: auto;
             display: flex;
-            margin-top: 30%;
-           height: 480vh;
+            
+          margin-top: -60%;
+           height: 490vh;
          
         }    
         
@@ -108,8 +109,8 @@
         .main-noticias{
             display: block;
             height: 330vh;
+            margin-top: 50%;
             
-           
            
            
             
@@ -153,6 +154,7 @@
         .ntt-span{
             font-size: 14px;
             color: gray;
+           
             margin-left: 10%;
             
         }
@@ -179,7 +181,7 @@
         .sessao-principal{
             text-decoration: none;
             display: block;
-          
+         
            
             
         }
@@ -520,13 +522,7 @@
         
         
                     
-                .whats{
-                    display: none;
-                    transform: translateX(-70px);
-                    bottom: 5px;
-                    right: 5px;
-                    
-                }
+               
         
 
 }

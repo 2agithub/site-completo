@@ -60,7 +60,8 @@
 
             main{
              
-                
+               
+                height:110vh;
             }
             .banner{ 
                 width: 100%;
@@ -77,13 +78,13 @@
            
 footer{
    
-  
-  
-    height: 15vh;
+  margin-top: 30%;
+
+height: 8vh;
     justify-content: center;
 }
 .footer{
-  margin-top: -2%;
+
   height: 0vh;
   
    

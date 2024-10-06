@@ -33,32 +33,12 @@
     
  
   
-  #online{
-    font-style: oblique;
-    font-size: 8.5px;
-  
-    width: 100%;
-  }
-  a {
-      color: #fff;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-          
-      .banner-t img{
-         display: none;
-      }
-      .carrossel{
-          display: none;
-      }
-      .container{
-          display: none;
-      }
+ 
         /*---------------------------------------------MAIN*/
 
             main{
-             
+               
+               
                 height: 55vh;
             }
             .banner{
