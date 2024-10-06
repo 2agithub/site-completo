@@ -49,6 +49,14 @@
            
             height:25vh;
           }
+          .banner{
+            
+            width: 100%;
+          }
+          .banner img{
+            width: 100%;
+          }
+
         /*---------------------------------------------MAIN*/
 
         main{
@@ -56,7 +64,7 @@
             width: 93%;
             margin: auto;
             
-            height: 150vh;
+            height: 155vh;
           
         }    
             
@@ -111,136 +119,75 @@
 
         /*---------------------------------------------FOOTER*/
         footer{
-        
-            height: 21vh;
-            
-            
-        }
-
-        .bill{
-            color: #868686;
-            font-size: 12px;
-            padding: 8%;
-            text-align: center;
-            height: 10vh;
-            
-        }
-
-        .footer-rodape{
-            
            
-            background-color: #F5F5F5;
-            height: 10.5vh;
             
-        
-            
+         
+            height: 1vh;
+            justify-content: center;
         }
-        .footer-interno{
-            display: none;
-            background-color: #F5F5F5;
-            width: 95%;
-            margin: auto;
-            
-            height: 2vh;
+        .footer{
+            height: 1vh;
+            margin-left: 5%;
+           
+        
+            width: 90%;
             display: flex;
-             
+            gap: 70px;
         }
-
-        .interno{
+        .footer ul{
+            list-style: none;
+           display: none;
+            width: 35%;
+            
+        }
+        .footer li{
             display: none;
-            margin-top: 50px;
-          
-        width: 100%;
-        
-            color: #4A75C5;
+            margin-top: 15%;
         }
-        .interno ul{
-            list-style-type: none;
-        
-            text-align: center;
-            
-        }
-        .interno p{
-            
-            text-align: center;
-            margin-top: 20px;
-            color: #696969;
-            margin-left: 2%;
-            font-size: 15px;
-            
-        }
-        #s-mais p{
-        margin-left: 30%;
-        
-        }
-        #s-mais img{
-            
-            transform: translateX(80px);
-        }
-        .foot-icon{
-            display: flex;
-            
-            
-        }
-        .foot-icon img{
-            width:11%;
-            
-            margin-top: 13px;
-            
-            
-        }
-        .redes{
-            
-            height: 10vh;
-            
-        }
-        .redes img{
-            
-            margin-top: 8%;
-            
-        }
-
-        #prazo{
-            font-size: 15px;
-        }
-
-        .cartoes{
+        #formas{
             display: none;
-            
-            margin: auto;
-            height: 17vh;
-            color: #333333;
-            
-            text-align: center;
-            background-color: #F5F5F5;
-            
-        }   
-        .cart-txt{
-            width: 40%;
-            height: 17vh;
-        position: relative;
+        margin-top: -15%;
+        }
         
-            
+        .footer h3{
+            display: none;
             font-weight: bolder;
-            font-size: 8px;
-            
         }
-        .cart-txt p{
-            margin-top: 5px;
-            font-size: 12px;
-            text-align: center;
-            font-weight: lighter;
+        #footer{
+            display: none;
+            padding-block: 1%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
         }
-
         
-
-        .entrega-img img{
-            margin-top: -7%;
-            width: 100%;
-            
-        
-        
+        #footer-inf {
+            display: none;
+            font-size: 15px;
+            margin-top: 2%;
+            text-align: justify;
         }
+        
+        .entrega{
+            display: inline-block;
+            display: none;
+        }
+        .seguro{
+            display: none;
+            transform: translateY(20px);  
+        }
+        #footers{
+            display: none;
+            display: flex;
+            font-size: 14px;
+        }
+        
+        #footer-inf-p{
+            display: none;
+            margin-top: 4%;
+        }
+        
         .footer-fim{
             background-color: #B6B6B6;
             color: white;
@@ -248,19 +195,10 @@
             text-align: center;
             padding-block: 2%;
         }
-        #fim{
-            color: #696969;
-            font-size: 11px;
-        }  
-
+        
+        
 
             
-        .whats{
-            display: none;
-            transform: translateX(25px);
-            bottom: 5px;
-            right: 5px;
-            
-        }
+        
 
 }
