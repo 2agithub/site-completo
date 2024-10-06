@@ -381,9 +381,13 @@ main{
     margin-top: 5%;
     height: 29vh;
     
-}   
-#whats-img{
+} 
+.whats{
+    border: solid red;
     
+}  
+.whats-img{
+    border: solid red;
     
     width: 100%;
     
